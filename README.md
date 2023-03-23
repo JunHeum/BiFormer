@@ -1,7 +1,7 @@
 # BiFormer
 
 Junheum Park,
-Jintae im, 
+Jintae Kim, 
 and Chang-Su Kim
 
 Official PyTorch Code for **"BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4K Video Frame Interpolation"**
