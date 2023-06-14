@@ -1,0 +1,16 @@
+
+transformer_cfgs:
+  window_size: 8
+  B_window_size: 15
+  depths: 3
+  sblock_depths: 2
+  num_heads: 8
+  embed_dim: 256
+  mlp_ratio: 2
+  use_checkpoint: False
+  pred_sym: True
+
+
+Upsampler_cfgs:
+  search_range: 2
+  cost_levels: 3
