@@ -37,7 +37,7 @@ class BiFormer(nn.Module):
                  window_size=8, B_window_size=0, mlp_ratio=2., qkv_bias=True,
                  drop_rate=0., attn_drop_rate=0., drop_path_rate=0.1,
                  norm_layer=nn.LayerNorm, ape=False, patch_norm=True, small=False,
-                 use_checkpoint=False, pretrained=True,
+                 use_checkpoint=False, pretrained=False,
                  **kwargs):
         super(BiFormer, self).__init__()
         self.window_size = window_size
